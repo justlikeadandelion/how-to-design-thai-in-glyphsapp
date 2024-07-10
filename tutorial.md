@@ -1,8 +1,8 @@
 # Setting Up the File
 After opening Glyphs, a window with different glyph sets will appear for you to choose which alphabet you want to make, or you can open this window later through _File > New from Glyph Sets..._
 
-
-<img width="272" alt="01" src="https://github.com/justlikeadandelion/howtothaiglyphs/assets/126391031/02c90d1b-5d41-473a-aeed-c44b62ae1bd4">
+![screenshot01](/images/01.png)
+<!-- <img width="272" alt="01" src="https://github.com/justlikeadandelion/howtothaiglyphs/assets/126391031/02c90d1b-5d41-473a-aeed-c44b62ae1bd4"> -->
 
 Select Thai and say _YES_ to _Prepare glyphs_
 <img width="1033" alt="02" src="https://github.com/justlikeadandelion/howtothaiglyphs/assets/126391031/a8022444-f7f2-4840-af63-ab018f45b3b8">
