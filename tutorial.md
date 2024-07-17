@@ -30,6 +30,7 @@ Now you can start drawing the first vowel! It is recommended to start with saraI
 # About Thai Tones and Vowels
 Because of how Thai tones and vowels can be placed, there usually need to be more than one glyphs for each tone and vowel. 
 
+### Top Tones and Vowels
 In the case of _top tones and vowels_, there are usually
 - default glyphs or normal glyphs with unicodes for the 1st floor tones and all vowels (as grammatically tones can be on top of vowels but not the other way around);
 - glyphs with their names followed by ".small" for the 2nd floor tones or tones that are placed on top of vowels;
@@ -54,6 +55,7 @@ In the case of _top tones and vowels_, there are usually
 > [!NOTE]
 > Not all tones may have all kinds of glyphs. This can be adjusted depending on the needs within a typeface. If non of the above glyphs fits, you can also create ".mid" width tones.
 
+### Bottom Vowels
 In the case of _bottom vowels_, there are usually
 - default glyphs or normal glyphs with unicodes for all vowels;
 - glyphs with their names followed by ".small" for ".short" descender letters: doChada and ToPatak.
