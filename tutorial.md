@@ -81,7 +81,8 @@ For bottom vowels, there is only 1 tone-mark to connect to the consonant above a
 <sub>_bottom tone-mark on the top right corner of the image</sub> -->
 
 ### How to Add Tone-Marks
-After double clicking onto a glyph, you will be in that glyph page. You can type _cmd u_ and the marks will appear on the center of the glyph. You can drag them where you prefer.
+After double clicking onto a glyph, you will be in that glyph page. You can type _cmd u_ and the marks will appear in the center of the glyph. Therefore, it is recommended to create a guideline at x=200 and set the character width to 400, so that when checking them later, all the marks will be at the same place.
+![mark_all03](/images/mark_all03.png)
 
 ### How to Preview Tone-Marks
 What if you want to preview a word or a sentence with correct mark positions? There is a free plugin called *Show Mark Preview* that allows you to display tones and vowels in place in the Edit View using Text tool (T). The plugin can be installed through _Window > Plugin Manager_. Then click the taps *All* and *Plugins*. Type in "Show Mark Preview" in the search box and install it.
