@@ -98,8 +98,13 @@ After double clicking onto a glyph, you will be in that glyph page. You can type
 ![mark_all03](/images/mark_all03.png)
 
 ### How to Preview Tone-Marks
-What if you want to preview a word or a sentence with correct mark positions? There is a free plugin called *Show Mark Preview* that allows you to display tones and vowels in place in the Edit View using Text tool (T). The plugin can be installed through _Window > Plugin Manager_. Then click the taps *All* and *Plugins*. Type in "Show Mark Preview" in the search box and install it.
+What if you want to preview a word or a sentence with correct mark positions? There is a free plugin called *Show Mark Preview* that allows you to display tones and vowels in place in the Edit View using Text tool (T). 
+
+The plugin can be installed through _Window > Plugin Manager_. Then click the taps *All* and *Plugins*. Type in "Show Mark Preview" in the search box and install it.
 ![screenshot18](/images/mark-18.png)
+
+The Mark Preview can be turned on through _View > check Show Mark Preview_
+![screenshot19](/images/19.png)
 
 ### The Special Case of saraAm
 SaraAm when combined with maiTho or maiTri is normally not easy to align, so the solution would be to make new alternate glyphs. This can be done in Grid View by selecting the saraAm glyph then _cmd + d_ or _Glyph > Duplicate Glyph_. SaraAm glyph will be duplicated, and you can adjust the new glyph with maiTho or maiTri.
