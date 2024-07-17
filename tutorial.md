@@ -94,7 +94,7 @@ For bottom vowels, there is only 1 tone-mark to connect to the consonant above a
 <sub>_bottom tone-mark on the top right corner of the image</sub> -->
 
 ### How to Add Tone-Marks
-After double clicking onto a glyph, you will be in that glyph page. You can type _cmd u_ and the marks will appear in the center of the glyph. Therefore, it is recommended to create a guideline at x=200 and set the character width to 400, so that when checking them later, all the marks will be at the same place.
+After double clicking onto a glyph, you will be in that glyph page. You can type _cmd + u_ and the marks will appear in the center of the glyph. Therefore, it is recommended to create a guideline at x=200 and set the character width to 400, so that when checking them later, all the marks will be at the same place.
 ![mark_all03](/images/mark_all03.png)
 
 ### How to Preview Tone-Marks
@@ -102,3 +102,4 @@ What if you want to preview a word or a sentence with correct mark positions? Th
 ![screenshot18](/images/mark-18.png)
 
 ### The Special Case of saraAm
+SaraAm when combined with maiTho or maiTri is normally not easy to align, so the solution would be to make new alternate glyphs. This can be done in Grid View by selecting the saraAm glyph then _cmd + d_ or _Glyph > Duplicate Glyph_. SaraAm glyph will be duplicated, and you can adjust the new glyph with maiTho or maiTri.
