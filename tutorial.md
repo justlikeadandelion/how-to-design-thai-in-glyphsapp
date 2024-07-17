@@ -62,17 +62,21 @@ In the case of _buttom vowels_, there are usually
 # About Tone-Marks
 All the tones and vowels are connected to consonants with anchors called "marks." These marks act like hooks that you can place on each glyph for them to hook to another glyph. 
 
-There are 2 marks placed on consonants namely _top_ and _buttom_, and they , like their names, connect to top tones or vowels and buttom vowels consecutively. You can place tone-marks on the top and buttom right corners of each consonant. Though it is good to note that for rounded corners of some letters, tone-marks need to be shifted inward a little bit, as in the top tone-mark in this example. 
-![screenshot15](/images/mark-15.png)
-<sub>top tone-mark on the top right corner of the image and buttom tone-mark on the buttom right corner of the image</sub>
+![screenshot15](/images/mark_all_.png)
+
+There are 2 marks placed on consonants namely _top_ and _buttom_, and they , like their names, connect to top tones or vowels and buttom vowels consecutively. You can place tone-marks on the top and buttom right corners of each consonant. 
+
+Though it is good to note that for rounded corners of some letters, tone-marks need to be shifted inward a little bit, as in the top tone-mark in this example. 
+<!-- ![screenshot15](/images/mark-15.png)
+<sub>top tone-mark on the top right corner of the image and buttom tone-mark on the buttom right corner of the image</sub> -->
 
 For the top tones and vowels, there are also 2 marks and are called *top* and *_top*. It is recommended to add marks on the top and buttom of each tone and vowel, eventhough some tones are not grammatically be topped with anything. This is just to prevent user errors.
-![screenshot16](/images/mark-16.png)
-<sub>top tone-mark on the top right corner of the image and _top tone-mark on the buttom right corner of the image</sub>
+<!-- ![screenshot16](/images/mark-16.png)
+<sub>top tone-mark on the top right corner of the image and _top tone-mark on the buttom right corner of the image</sub> -->
 
 For buttom vowels, there is only 1 tone-mark to connect to the consonant above as there is nothing beneath these vowels. This tone-mark is called *_buttom*.
-![screenshot17](/images/mark-17.png)
-<sub>_buttom tone-mark on the top right corner of the image</sub>
+<!-- ![screenshot17](/images/mark-17.png)
+<sub>_buttom tone-mark on the top right corner of the image</sub> -->
 
 ### How to Add Tone-Marks
 After double clicking onto a glyph, you will be in that glyph page. You can type _cmd u_ and the marks will appear on the center of the glyph. You can drag them where you prefer.
