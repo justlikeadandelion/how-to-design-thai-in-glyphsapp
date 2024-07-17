@@ -38,7 +38,7 @@ In the case of _top tones and vowels_, there are usually
 ![mark_all05](/images/mark_all05.png)
 <sub>An example of maiTho, maiTho.small and maiTho.narrow</sub>
 
-![mark_all05](/images/mark_all05.png)
+![mark_all06](/images/mark_all06.png)
 <sub>An example of maiTho, maiTho.small and maiTho.narrow in use</sub>
 
 <!-- 
