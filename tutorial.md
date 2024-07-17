@@ -24,7 +24,8 @@ A new _undefined_ input will appear. Simply click on it, then choose _Body Heigh
 The first input is the body height and the second input is the amount of overshoot.
 ![screenshot08](/images/08.png)
 
-Now you can start drawing the first vowel! It is recommended to start with saraIi as its height is usually in between the rest, so it is easier to keep as reference.
+Now you can start drawing the first vowel! It is recommended to start with saraIi as its height is usually in between the rest, so it is easier to keep as reference. You can also add 2 guidelines to easily refer to the baseline and height of saraIi.
+![saraIiguidelines](/images/saraIiguidelines.png)
 
 # About Thai Tones and Vowels
 Because of how Thai tones and vowels can be placed, there usually need to be more than one glyphs for each tone and vowel. 
