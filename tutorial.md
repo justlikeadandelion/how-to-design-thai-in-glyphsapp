@@ -64,7 +64,7 @@ In the case of _bottom vowels_, there are usually
 <sub>An example of saraU and saraU.small</sub>
 
 ![mark_all08](/images/mark_all08.png)
-<sub>An example of saraU and saraU.small in use</sub>
+<sub>An example of doChada.short and saraU.small in use</sub>
 
 <!-- ![screenshot13](/images/tone-13.png)
 <sub>An example of saraU and saraU.small</sub>
