@@ -60,11 +60,17 @@ In the case of _bottom vowels_, there are usually
 - default glyphs or normal glyphs with unicodes for all vowels;
 - glyphs with their names followed by ".small" for ".short" descender letters: doChada and ToPatak.
 
-![screenshot13](/images/tone-13.png)
+![mark_all07](/images/mark_all07.png)
+<sub>An example of saraU and saraU.small</sub>
+
+![mark_all08](/images/mark_all08.png)
+<sub>An example of saraU and saraU.small in use</sub>
+
+<!-- ![screenshot13](/images/tone-13.png)
 <sub>An example of saraU and saraU.small</sub>
 
 ![screenshot14](/images/tone-14.png)
-<sub>An example of saraU.small</sub>
+<sub>An example of saraU.small</sub> -->
 
 # About Tone-Marks
 All the tones and vowels are connected to consonants with anchors called "marks." These marks act like hooks that you can place on each glyph for them to hook to another glyph. 
