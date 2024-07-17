@@ -62,7 +62,7 @@ In the case of _buttom vowels_, there are usually
 # About Tone-Marks
 All the tones and vowels are connected to consonants with anchors called "marks." These marks act like hooks that you can place on each glyph for them to hook to another glyph. 
 
-![screenshot15](/images/mark_all_.png)
+![mark_all](/images/mark_all.png)
 
 There are 2 marks placed on consonants namely _top_ and _buttom_, and they , like their names, connect to top tones or vowels and buttom vowels consecutively. You can place tone-marks on the top and buttom right corners of each consonant. 
 
