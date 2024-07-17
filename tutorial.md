@@ -19,9 +19,9 @@ After finishing a character, it's time to define body height and overshoot value
 
 A new _undefined_ input will appear. Simply click on it, then choose _others_ for the _Metrics type_ and add a _Custom Name_. In this example, I put Thai.
 ![screenshot06](/images/06.png)
+![screenshot07](/images/07.png)
 
 The first input is the body height and the second input is the amount of overshoot.
-![screenshot07](/images/07.png)
 ![screenshot08](/images/08.png)
 
 Now you can start drawing the first vowel! It is recommended to start with saraIi as its height is usually in between the rest, so it is easier to keep as reference.
@@ -75,7 +75,7 @@ For buttom vowels, there is only 1 tone-mark to connect to the consonant above a
 <sub>_buttom tone-mark on the top right corner of the image</sub>
 
 ### How to Add Tone-Marks
-After double clicking onto a glyph, you will be in that glyph page. You can type _cmd u_ 
+After double clicking onto a glyph, you will be in that glyph page. You can type _cmd u_ and the marks will appear on the center of the glyph. You can drag them where you prefer.
 
 ### How to Preview Tone-Marks
 What if you want to preview a word or a sentence with correct mark positions? There is a free plugin called *Show Mark Preview* that allows you to display tones and vowels in place in the Edit View using Text tool (T). The plugin can be installed through _Window > Plugin Manager_. Then click the taps *All* and *Plugins*. Type in "Show Mark Preview" in the search box and install it.
