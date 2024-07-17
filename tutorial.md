@@ -35,9 +35,13 @@ In the case of _top tones and vowels_, there are usually
 - glyphs with their names followed by ".small" for the 2nd floor tones or tones that are placed on top of vowels;
 - glyphs with their names followed by ".narrow" for all tones and vowels used with ascender letters: poPla, foFa, foFan or in some case narrow letters such as roRua, woWean, khoKhai, choChang etc.
 
-![screenshot09](/images/tone-09.png)
+![mark_all05](/images/mark_all05.png)
 <sub>An example of maiTho, maiTho.small and maiTho.narrow</sub>
 
+![mark_all05](/images/mark_all05.png)
+<sub>An example of maiTho, maiTho.small and maiTho.narrow in use</sub>
+
+<!-- 
 ![screenshot10](/images/tone-10.png)
 <sub>An example of default maiTho</sub>
 
@@ -45,7 +49,7 @@ In the case of _top tones and vowels_, there are usually
 <sub>An example of maiTho.small</sub>
 
 ![screenshot12](/images/tone-12.png)
-<sub>An example of maiTho.narrow</sub>
+<sub>An example of maiTho.narrow</sub> -->
 
 > [!NOTE]
 > Not all tones may have all kinds of glyphs. This can be adjusted depending on the needs within a typeface. If non of the above glyphs fits, you can also create ".mid" width tones.
