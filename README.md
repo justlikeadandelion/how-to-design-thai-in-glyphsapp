@@ -39,21 +39,27 @@ A new _undefined_ input will appear. Simply click on it, then choose _Body Heigh
 
 Then you can fill in Thai height and alignment zone. These values can be changed along your development process. They are important also for anchors attachment at Thai height in which we will talk about it more in details in the section below. 
 
-# Start Drawing! 
+# 3. Start Drawing! 
 You will be filling all glyphs with your drawing in most of the sections: Letters, Marks, Numerals and others, please see more about [the drawing tip here](https://glyphsapp.com/learn/drawing-good-paths)
 
 ## Marks
-After you've done all Letters, now you can start drawing the vowel! `saraIi-thai` is usually good for the start as its height usually defines the rest of its set (`saraI-thai` `saraIi-thai` `saraUe-thai` `saraUee-thai`). You can also add 2 guidelines to easily refer to the baseline and height of saraIi.
+After you've done all Letters, now you can start drawing the vowel! `saraIi-thai` is usually good for the start as its height usually defines the rest of its set:`saraI-thai` `saraIi-thai` `saraUe-thai` `saraUee-thai`, let's say we call them "vowel set". You can also add 2 guidelines to easily refer to the baseline and height of saraIi.
 ![saraIiguidelines](images/saraIiguidelines.png)
 
-# About Thai Tones and Vowels
-Because of how Thai tones and vowels can be placed, there usually need to be more than one glyphs for each tone and vowel. 
+However, the height of "tone set" such as `maiEk-thai`, `maiTho-thai`, `maiTri-thai`, `maiChattawa-thai`, or even `maitaikhu-thai` should not be limited to the height of `saraIi-thai` 
+
+The image below is showing the example, `maiTho-thai` can grow heigher than `saraIi-thai` since it doesn't have to spare the space for the second floor on the top. 
+
+![title](images/saraii-maitho.png)
+
+## Thai tone-marks explain
+In Thai, forming a word can involve multiple tone and vowel marks placed above and below the consonants or letters. Thanks to the current technology we are now attached marks on top and below letters using "anchor" attached on letters and at the marks operating through `mark to base` and `mark to mark` Opentype feature; please [see more tips here](https://glyphsapp.com/learn/mark-attachment)
 
 ### Top Tones and Vowels
-In the case of _top tones and vowels_, there are usually
-- default glyphs or normal glyphs with unicodes for the 1st floor tones and all vowels (as grammatically tones can be on top of vowels but not the other way around);
-- glyphs with their names followed by ".small" for the 2nd floor tones or tones that are placed on top of vowels;
-- glyphs with their names followed by ".narrow" for all tones and vowels used with ascender letters: poPla, foFa, foFan or in some case narrow letters such as roRua, woWean, khoKhai, choChang etc.
+In Thai font development, our tone-mark usually has 3 sets: 
+1. default (e.g. `maiTho-thai`) is _a first floor marks_ using on top of letters
+2. narrow (e.g. `maiTho-thai.narrow`) is _a first floor marks_ using on letters _with ascender_
+3. small (e.g. `maiTho-thai.small`) is _a second floor_ marks using _on top of the first floor mark._
 
 ![mark_all05](images/mark_all05.png)
 <sub>An example of maiTho, maiTho.small and maiTho.narrow</sub>
