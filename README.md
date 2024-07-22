@@ -1,7 +1,7 @@
 # Lets Start! With Creating a File
 After opening Glyphs, a window with different glyph sets will appear for you to choose which alphabet you want to make, or you can open this window later through _File > New from Glyph Sets..._
 
-![screenshot01](/images/01.png)
+![screenshot01](images/01.png)
 
 Select Thai and say _YES_ to _Prepare glyphs_
 ![screenshot02](/images/02.png)
