@@ -1,11 +1,22 @@
+<<<<<<< Updated upstream:README.md
 # 1.  Lets Start! With Creating a File
 First opening Glyphs App, there will be a window showing different scripts for you to choose which script you want to develop, then select Thai and say _YES_ to _Prepare glyphs_
+=======
+# Lets Start! 
+### Creating a File
+After opening Glyphs, a window with different glyph sets will appear for you to choose which alphabet you want to make, or you can open this window later through _File > New from Glyph Sets..._
+>>>>>>> Stashed changes:tutorial.md
 
 ![screenshot02](images/02.png)
 
 or you can open this window later through _File > New from Glyph Sets..._
 
+<<<<<<< Updated upstream:README.md
 ![screenshot01](images/01.png)
+=======
+### Download Some Things
+(For first time user) Before diving into editing, there are some modules you need to install for the future plugins to work. You can access them through _Window > Plugin Manager_ 
+>>>>>>> Stashed changes:tutorial.md
 
 ## Note: For first time user
 Before diving into editing, there are some modules you need to install for the future plugins to work. You can access them through _Window > Plugin Manager_ 
@@ -111,3 +122,8 @@ The Mark Preview can be turned on through _View > check Show Mark Preview_
 
 ### The Special Case of saraAm
 SaraAm when combined with maiTho or maiTri is normally not easy to align, so the solution would be to make new alternate glyphs. This can be done in Grid View by selecting the saraAm glyph then _cmd + d_ or _Glyph > Duplicate Glyph_. SaraAm glyph will be duplicated, and you can adjust the new glyph with maiTho or maiTri.
+<<<<<<< Updated upstream:README.md
+=======
+
+# How to make the typing work: feature
+>>>>>>> Stashed changes:tutorial.md
