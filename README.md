@@ -37,11 +37,13 @@ A new _undefined_ input will appear. Simply click on it, then choose _Body Heigh
 
 ![title](images/Thai_Metric_Alignment_3.png)
 
-Then you can fill in Thai height and alignment zone. These values can be changed later on along your development process. These values are important also for anchors attachment at Thai height in which we will talk about it more in details in the section below. 
+Then you can fill in Thai height and alignment zone. These values can be changed along your development process. They are important also for anchors attachment at Thai height in which we will talk about it more in details in the section below. 
 
----------
+# Start Drawing! 
+You will be filling all glyphs with your drawing in most of the sections: Letters, Marks, Numerals and others, please see more about [the drawing tip here](https://glyphsapp.com/learn/drawing-good-paths)
 
-Now you can start drawing the first vowel! It is recommended to start with saraIi as its height is usually in between the rest, so it is easier to keep as reference. You can also add 2 guidelines to easily refer to the baseline and height of saraIi.
+## Marks
+After you've done all Letters, now you can start drawing the vowel! `saraIi-thai` is usually good for the start as its height usually defines the rest of its set (`saraI-thai` `saraIi-thai` `saraUe-thai` `saraUee-thai`). You can also add 2 guidelines to easily refer to the baseline and height of saraIi.
 ![saraIiguidelines](images/saraIiguidelines.png)
 
 # About Thai Tones and Vowels
