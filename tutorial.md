@@ -13,8 +13,8 @@ Select Thai and say _YES_ to _Prepare glyphs_
 Then this window will appear. Go to _Modules_ located next to the search box. Then install all 4 modules, also for the future use ;-)
 ![screenshot04](/images/04.png)
 
-# Setting Auto Hint Area (?)
-After finishing a character, it's time to define body height and overshoot values. This is useful as the rest of the consonants will have heights to depend on and the vowels and tones will be easier to position. You can do this through _Font Info_. Then go to _Masters_ tab, scroll down to _Metrics_ and click the _+_ symbol on the right. (All the default specifications with the tag _Thai_ are not essential, so in this tutorial I will delete them out.)
+# Metric & Alignment Zones for Thai
+After finishing a character, it's time to define body height and alignment zones — please see more details in [Glyphs 3 Handbook](https://cdn2.glyphsapp.com/media/pages/learn/f84e457b88-1639830290/glyphs-3.0.4-handbook.pdf/). This is useful as the rest of the consonants will have heights to depend on and the vowels and tones will be easier to position. You can do this through _Font Info_. Then go to _Masters_ tab, scroll down to _Metrics_ and click the _+_ symbol on the right. (All the default specifications with the tag _Thai_ are not essential, so in this tutorial I will delete them out.)
 ![screenshot05](/images/05.png)
 
 A new _undefined_ input will appear. Simply click on it, then choose _Body Height_ for the _Metrics type_ and add a _Custom Name_. In this example, I put Thai.
