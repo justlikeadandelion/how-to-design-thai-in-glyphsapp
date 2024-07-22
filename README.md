@@ -1,11 +1,12 @@
 # 1.  Lets Start! With Creating a File
-First opening Glyphs App, there will be a window showing different scripts for you to choose which script you want to develop, then select Thai and say _YES_ to _Prepare glyphs_
+We have to add Thai glpyhs into the file (glyphs with its unicode). There are two ways of doing this in Glyphs 3: 
+
+1.1 First opening Glyphs App, there will be a window showing different scripts for you to choose which script you want to develop, then select Thai and say _YES_ to _Prepare glyphs_
 
 ![screenshot02](images/02.png)
 
-or you can open this window later through _File > New from Glyph Sets..._
-
-![screenshot01](images/01.png)
+1.2 We can also come to the languages section on the left, then we open the dropdown in Thai and then selected the glyphs we would like to add from those catagories (Letters, Marks, Numerals etc.) then click "Generate"
+![title](images/section_1-dropdown-thai.png)
 
 ## Note: For first time user
 Before diving into editing, there are some modules you need to install for the future plugins to work. You can access them through _Window > Plugin Manager_ 
@@ -17,15 +18,28 @@ Then this window will appear. Go to _Modules_ located next to the search box. Th
 Please see more about modules also in [Glyphs 3 Handbook](https://cdn2.glyphsapp.com/media/pages/learn/f84e457b88-1639830290/glyphs-3.0.4-handbook.pdf) (in 3.6 Addons)
 
 # 2. Metric & Alignment Zones for Thai
-After finishing a character, it's time to define body height and alignment zones — please see more details in [Glyphs 3 Handbook](https://cdn2.glyphsapp.com/media/pages/learn/f84e457b88-1639830290/glyphs-3.0.4-handbook.pdf). This is useful as the rest of the consonants will have heights to depend on and the vowels and tones will be easier to position. You can do this through _Font Info_. Then go to _Masters_ tab, scroll down to _Metrics_ and click the _+_ symbol on the right. (All the default specifications with the tag _Thai_ are not essential, so in this tutorial I will delete them out.)
-![screenshot05](images/05.png)
+After we added Thai glyphs into our file, it's time to define body height and alignment zones — please see more about techniccal details explanation in [Glyphs 3 Handbook](https://cdn2.glyphsapp.com/media/pages/learn/f84e457b88-1639830290/glyphs-3.0.4-handbook.pdf). This is useful as the rest of the consonants will have heights to depend on and the vowels and tones will be easier to position. 
+
+**Thai's height is situated in between Cap Height and x-Height.** 
+
+To do this, you can go to  _Font Info_. Then go to _Masters_ tab, scroll down to _Metrics_ and click the _+_ symbol on the right.
+
+
+If you added Thai glyphs through pre-defined glyphs set via the scripts pop-up window, you will automatically have multiple Metrics preset here. You can choose to keep/ modify/ delete them out as you see fit for your design. 
+
+In this insturction, we would like to keep the metricminimal for ease of understanding. And will only focus on what is necessary. We started by adding the glyphs through method (1.1) 
+
+![title](images/Thai_Metric_Alignment_1.png)
 
 A new _undefined_ input will appear. Simply click on it, then choose _Body Height_ for the _Metrics type_ and add a _Custom Name_. In this example, I put Thai.
-![screenshot06](images/06.png)
-![screenshot07](images/07.png)
 
-The first input is the body height and the second input is the amount of overshoot.
-![screenshot08](images/08.png)
+![title](images/Thai_Metric_Alignment_2.png)
+
+![title](images/Thai_Metric_Alignment_3.png)
+
+Then you can fill in Thai height and alignment zone. These values can be changed later on along your development process. These values are important also for anchors attachment at Thai height in which we will talk about it more in details in the section below. 
+
+---------
 
 Now you can start drawing the first vowel! It is recommended to start with saraIi as its height is usually in between the rest, so it is easier to keep as reference. You can also add 2 guidelines to easily refer to the baseline and height of saraIi.
 ![saraIiguidelines](images/saraIiguidelines.png)
