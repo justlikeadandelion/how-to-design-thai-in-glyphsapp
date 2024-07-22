@@ -1,4 +1,4 @@
-#1.  Lets Start! With Creating a File
+# 1.  Lets Start! With Creating a File
 First opening Glyphs App, there will be a window showing different scripts for you to choose which script you want to develop, 
 ![screenshot02](images/02.png)
 Select Thai and say _YES_ to _Prepare glyphs_
@@ -6,7 +6,7 @@ Select Thai and say _YES_ to _Prepare glyphs_
 ![screenshot01](images/01.png)
 or you can open this window later through _File > New from Glyph Sets..._
 
-##Note: For first time user
+## Note: For first time user
 Before diving into editing, there are some modules you need to install for the future plugins to work. You can access them through _Window > Plugin Manager_ 
 ![screenshot03](images/03.png)
 
