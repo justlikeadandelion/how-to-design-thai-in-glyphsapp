@@ -5,7 +5,6 @@ After opening Glyphs, a window with different glyph sets will appear for you to 
 
 Select Thai and say _YES_ to _Prepare glyphs_
 ![screenshot02](images/02.png)
-
 (For first time user) Before diving into editing, there are some modules you need to install for the future plugins to work. You can access them through _Window > Plugin Manager_ 
 
 ![screenshot03](images/03.png)
