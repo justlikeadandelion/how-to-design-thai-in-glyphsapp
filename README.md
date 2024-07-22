@@ -1,8 +1,10 @@
 # 1.  Lets Start! With Creating a File
 First opening Glyphs App, there will be a window showing different scripts for you to choose which script you want to develop, then select Thai and say _YES_ to _Prepare glyphs_
+
 ![screenshot02](images/02.png)
 
 or you can open this window later through _File > New from Glyph Sets..._
+
 ![screenshot01](images/01.png)
 
 ## Note: For first time user
