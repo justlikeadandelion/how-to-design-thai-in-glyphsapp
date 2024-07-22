@@ -10,7 +10,7 @@ Select Thai and say _YES_ to _Prepare glyphs_
 
 ![screenshot03](/images/03.png)
 
-Then this window will appear. Go to _Modules_ located next to the search box. Then install all 4 modules.
+Then this window will appear. Go to _Modules_ located next to the search box. Then install all 4 modules, also for the future use ;-)
 ![screenshot04](/images/04.png)
 
 # Setting Auto Hint Area (?)
