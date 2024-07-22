@@ -1,18 +1,21 @@
-# Lets Start! With Creating a File
-After opening Glyphs, a window with different glyph sets will appear for you to choose which alphabet you want to make, or you can open this window later through _File > New from Glyph Sets..._
+#1.  Lets Start! With Creating a File
+First opening Glyphs App, there will be a window showing different scripts for you to choose which script you want to develop, 
+![screenshot02](images/02.png)
+Select Thai and say _YES_ to _Prepare glyphs_
 
 ![screenshot01](images/01.png)
+or you can open this window later through _File > New from Glyph Sets..._
 
-Select Thai and say _YES_ to _Prepare glyphs_
-![screenshot02](images/02.png)
-(For first time user) Before diving into editing, there are some modules you need to install for the future plugins to work. You can access them through _Window > Plugin Manager_ 
-
+##Note: For first time user
+Before diving into editing, there are some modules you need to install for the future plugins to work. You can access them through _Window > Plugin Manager_ 
 ![screenshot03](images/03.png)
 
 Then this window will appear. Go to _Modules_ located next to the search box. Then install all 4 modules, also for the future use ;-)
 ![screenshot04](images/04.png)
 
-# Metric & Alignment Zones for Thai
+Please see more about modules also in [Glyphs 3 Handbook](https://cdn2.glyphsapp.com/media/pages/learn/f84e457b88-1639830290/glyphs-3.0.4-handbook.pdf) (in 3.6 Addons)
+
+# 2. Metric & Alignment Zones for Thai
 After finishing a character, it's time to define body height and alignment zones — please see more details in [Glyphs 3 Handbook](https://cdn2.glyphsapp.com/media/pages/learn/f84e457b88-1639830290/glyphs-3.0.4-handbook.pdf). This is useful as the rest of the consonants will have heights to depend on and the vowels and tones will be easier to position. You can do this through _Font Info_. Then go to _Masters_ tab, scroll down to _Metrics_ and click the _+_ symbol on the right. (All the default specifications with the tag _Thai_ are not essential, so in this tutorial I will delete them out.)
 ![screenshot05](images/05.png)
 
