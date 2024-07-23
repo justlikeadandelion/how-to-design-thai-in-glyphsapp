@@ -144,6 +144,9 @@ Then the #2 floor tonal marks will attach to the anchors position in `nikhahit-t
 
 The new glyph can be added through Glyph >> Add Glyphs..., you can name them however you like, in my case I name them `nikhahit_maiTho-thai` and `nikhahit_maiTri-thai`. And then add Componant of `nikhahit-thai` + `maiTho-thai.small`, for example. And right click to `disable automatic alignment` and the you can freely adjust their position. 
 
+![nikahit-maitho](images/nikahit-maitho.png)
+<sub>An example of nikhahit_maiTho-thai</sub>
+
 >[!NOTE]
 > Please make sure that the name of this ligature you set and what you wrote in the OpenType feature is the same name. Otherwise, those substitution will not work. 
 
