@@ -55,11 +55,11 @@ The image below is showing the example, `maiTho-thai` can grow heigher than `sar
 ## Thai tone-marks explain
 In Thai, forming a word can involve multiple tone and vowel marks placed above and below the consonants or letters. Thanks to the current technology we are now attached marks on top and below letters using "anchor" attached on letters and at the marks operating through `mark to base` and `mark to mark` Opentype feature; please [see more tips here](https://glyphsapp.com/learn/mark-attachment)
 
-### Top Tones and Vowels
+### Top Marks
 In Thai font development, our tone-mark usually has 3 sets: 
 1. default (e.g. `maiTho-thai`) is _a first floor marks_ using on top of letters
-2. narrow (e.g. `maiTho-thai.narrow`) is _a first floor marks_ using on letters _with ascender_
-3. small (e.g. `maiTho-thai.small`) is _a second floor_ marks using _on top of the first floor mark._
+2. .small (e.g. `maiTho-thai.small`) is _a second floor_ marks using _on top of the first floor mark._ This set of glyphs is also smaller than the default glyphs as well. 
+3. .narrow (e.g. `maiTho-thai.narrow`) is _a first floor marks_ using on letters _with ascender._This set of glyphs is usually narrower than the default glyphs.
 
 ![mark_all05](images/mark_all05.png)
 <sub>An example of maiTho, maiTho.small and maiTho.narrow</sub>
@@ -78,18 +78,20 @@ In Thai font development, our tone-mark usually has 3 sets:
 <sub>An example of maiTho.narrow</sub> -->
 
 > [!NOTE]
-> Not all tones may have all kinds of glyphs. This can be adjusted depending on the needs within a typeface. If non of the above glyphs fits, you can also create ".mid" width tones.
+> Not all top marks require all three sets. These can be adjusted based on the needs of each typeface. If none of the above fit certain glyphs, it is possible to create additional alternates. For example, you can create “.mid” (middle) width top marks for use with `roRua-thai` or `woWean-thai` in Loopless designs.
+> Default means glyph without additional .small / .narrow after its name or in other word glyph that contains unicode.
 
-### Bottom Vowels
-In the case of _bottom vowels_, there are usually
-- default glyphs or normal glyphs with unicodes for all vowels;
-- glyphs with their names followed by ".small" for ".short" descender letters: doChada and ToPatak.
+### Bottom Marks
+In the case of _bottom mark_, there are two sets: 
+1. Default glyphs
+2. .small is a shorter version of its default to use with letter with descender: ".short" descender letters: `doChada-thai.short` and `toPatak-thai.short`.
 
 ![mark_all07](images/mark_all07.png)
 <sub>An example of saraU and saraU.small</sub>
 
 ![mark_all08](images/mark_all08.png)
 <sub>An example of doChada.short and saraU.small in use</sub>
+**Change photo same as ส้มนี้ฟ้า**
 
 <!-- ![screenshot13](images/tone-13.png)
 <sub>An example of saraU and saraU.small</sub>
@@ -97,12 +99,15 @@ In the case of _bottom vowels_, there are usually
 ![screenshot14](images/tone-14.png)
 <sub>An example of saraU.small</sub> -->
 
-# About Tone-Marks
-All the tones and vowels are connected to consonants with anchors called "marks." These marks act like hooks that you can place on each glyph for them to hook to another glyph. 
+# Anchors attachedment
+These anchors act like hooks that you can place on each glyph for them to hook to another glyph. Please see [more about anchors here](https://handbook.glyphsapp.com/anchors/)
+
+### Anchors on Letters/ Consonants
+There are 2 anchors placed on consonants namely _"top"_ and _"bottom"_, and they , like their names, _"top"_ placed on Thai Body Height connect to the top marks and _"bottom"_ placed on on the baseline to connecct with the bottom marks. In Thai, we usually place the mark align with the right stem of the letters, therefore, you can place anchors at the top/bottom right of each letters/ consonants. 
+
 
 ![mark_all01](images/mark_all01.png)
 
-There are 2 marks placed on consonants namely _top_ and _bottom_, and they , like their names, connect to top tones or vowels and bottom vowels consecutively. You can place tone-marks on the top and bottom right corners of each consonant. 
 
 Though it is good to note that for rounded corners of some letters, tone-marks need to be shifted inward a little bit, as in the top tone-mark in this example. 
 <!-- ![screenshot15](images/mark-15.png)
