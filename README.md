@@ -5,17 +5,16 @@ We have to add Thai glpyhs into the file! There are two ways of doing this in Gl
 
 ![screenshot02](images/02.png)
 
-1.2 We can also come to the languages section on the left, then we open the dropdown in Thai and then selected the glyphs we would like to add from those catagories (Letters, Marks, Numerals etc.) then click "Generate"
+1.2 We can also navigate to the languages section on the left. Then, we open the dropdown menu under Thai and select the glyphs we want to add from the categories (Letters, Marks, Numerals, etc.). Finally, click “Generate”.
 ![title](images/section_1-dropdown-thai.png)
 
 ## Note: For first time user
 Before diving into editing, there are some modules you need to install for the future plugins to work. You can access them through _Window > Plugin Manager_ 
 ![screenshot03](images/03.png)
 
-Then this window will appear. Go to _Modules_ located next to the search box. Then install all 4 modules, also for the future use ;-)
-![screenshot04](images/04.png)
+Then this window will appear. Go to _Modules_ located next to the search box. Then install all 4 modules.Please see more about modules also in [Glyphs 3 Handbook](https://cdn2.glyphsapp.com/media/pages/learn/f84e457b88-1639830290/glyphs-3.0.4-handbook.pdf) (in 3.6 Addons)
 
-Please see more about modules also in [Glyphs 3 Handbook](https://cdn2.glyphsapp.com/media/pages/learn/f84e457b88-1639830290/glyphs-3.0.4-handbook.pdf) (in 3.6 Addons)
+![screenshot04](images/04.png)
 
 # 2. Metric & Alignment Zones for Thai
 After we added Thai glyphs into our file, it's time to define body height and alignment zones — please see more about techniccal details explanation in [Glyphs 3 Handbook](https://cdn2.glyphsapp.com/media/pages/learn/f84e457b88-1639830290/glyphs-3.0.4-handbook.pdf). This is useful as the rest of the consonants will have heights to depend on and the vowels and tones will be easier to position. 
