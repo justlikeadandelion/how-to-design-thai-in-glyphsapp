@@ -1,5 +1,5 @@
 # 1.  Lets Start! With Creating a File
-We have to add Thai glpyhs into the file (glyphs with its unicode). There are two ways of doing this in Glyphs 3: 
+We have to add Thai glpyhs into the file! There are two ways of doing this in Glyphs 3: 
 
 1.1 First opening Glyphs App, there will be a window showing different scripts for you to choose which script you want to develop, then select Thai and say _YES_ to _Prepare glyphs_
 
