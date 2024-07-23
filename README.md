@@ -43,7 +43,7 @@ You will be filling all glyphs with your drawing in most of the sections: Letter
 After you've done all Letters, now you can start drawing the marks! `saraIi-thai` is usually good for the start as its height usually defines the rest of the height in its set:`saraI-thai` `saraIi-thai` `saraUe-thai` `saraUee-thai`, let's say we call them "vowel set". You can also add guidelines at the top and the bottom of it to easily refer to the baseline and height of `saraIi-thai`.
 ![saraIiguidelines](images/saraIiguidelines.png)
 
-However, the height of tonal marks such as `maiEk-thai`, `maiTho-thai`, `maiTri-thai`, `maiChattawa-thai`, or even `maitaikhu-thai` should not be limited to the height of `saraIi-thai` since it will not have any other marks to be placed on top, and for the visual compensation — it can grow heigher than the `saraIi-thai` height, please, see example in the image below.
+However, the height of tonal marks or "tone set" such as `maiEk-thai`, `maiTho-thai`, `maiTri-thai`, `maiChattawa-thai`, or even `maitaikhu-thai` should not be limited to the height of `saraIi-thai` since it will not have any other marks to be placed on top, and for the visual compensation — it can grow heigher than the `saraIi-thai` height, please, see example in the image below.
 
 ![title](images/saraii-maitho.png)
 
