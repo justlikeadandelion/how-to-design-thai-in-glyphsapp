@@ -78,8 +78,8 @@ In Thai font development, our tone-mark usually has 3 sets:
 <sub>An example of maiTho.narrow</sub> -->
 
 > [!NOTE]
-> Not all top marks require all three sets. These can be adjusted based on the needs of each typeface. If none of the above fit certain glyphs, it is possible to create additional alternates. For example, you can create “.mid” (middle) width top marks for use with `roRua-thai` or `woWean-thai` in Loopless designs.
-> Default means glyph without additional .small / .narrow after its name or in other word glyph that contains unicode.
+> * Not all top marks require all three sets. These can be adjusted based on the needs of each typeface. If none of the above fit certain glyphs, it is possible to create additional alternates. For example, you can create “.mid” (middle) width top marks for use with `roRua-thai` or `woWean-thai` in Loopless designs.
+> * Default means glyph without additional .small / .narrow after its name or in other word glyph that contains unicode.
 
 ### Bottom Marks
 In the case of _bottom mark_, there are two sets: 
@@ -103,7 +103,7 @@ In the case of _bottom mark_, there are two sets:
 These anchors act like hooks that you can place on each glyph for them to hook to another glyph. Please see [more about anchors here](https://handbook.glyphsapp.com/anchors/)
 
 ### Anchors on Letters/ Consonants
-There are 2 anchors placed on consonants namely _"top"_ and _"bottom"_, and they , like their names, _"top"_ placed on Thai Body Height connect to the top marks and _"bottom"_ placed on on the baseline to connecct with the bottom marks. In Thai, we usually place the mark align with the right stem of the letters, therefore, you can place anchors at the top/bottom right of each letters/ consonants. 
+There are 2 anchors which will be placed on consonants namely _"top"_ and _"bottom"_, and they , like their names, _"top"_ placed on Thai Body Height connect to the top marks and _"bottom"_ placed on on the baseline to connecct with the bottom marks. In Thai, we usually place the mark align with the right stem of the letters, therefore, you can place anchors at the top/bottom right of each letters/ consonants. 
 
 
 ![mark_all01](images/mark_all01.png)
