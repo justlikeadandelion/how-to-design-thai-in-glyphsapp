@@ -1,4 +1,4 @@
-# 1.  Lets Start! With Creating a File
+# 1.  Let’s start by creating a file
 We have to add Thai glpyhs into the file! There are two ways of doing this in Glyphs 3: 
 
 1.1 First opening Glyphs App, there will be a window showing different scripts for you to choose which script you want to develop, then select Thai and say _YES_ to _Prepare glyphs_
