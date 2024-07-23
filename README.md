@@ -103,23 +103,31 @@ In the case of _bottom mark_, there are two sets:
 These anchors act like hooks that you can place on each glyph for them to hook to another glyph. Please see [more about anchors here](https://handbook.glyphsapp.com/anchors/)
 
 ### Anchors on Letters/ Consonants
-There are 2 anchors which will be placed on consonants namely _"top"_ and _"bottom"_, and they , like their names, _"top"_ placed on Thai Body Height connect to the top marks and _"bottom"_ placed on on the baseline to connecct with the bottom marks. In Thai, we usually place the mark align with the right stem of the letters, therefore, you can place anchors at the top/bottom right of each letters/ consonants. 
+There are 2 anchors which will be placed on consonants namely *"top"* and *"bottom"*, and they , like their names, *"top"* placed on Thai Body Height connect to the top marks and *"bottom"* placed on on the baseline to connecct with the bottom marks. In Thai, we usually place the mark align with the right stem of the letters, therefore, you can place anchors at the top/bottom right of each letters/ consonants. 
 
+> [!NOTE]
+> It is important to note that for curved corners in some letters, anchors sometimes need to be shifted slightly inward (-x) to achieve proper visual compensation and alignment between the letter and the marks.
+
+![title](images/kokai-thai.png)
+
+### Anchors on marks #1 floor
+For the #1 floor top marks, there are also 2 anchors: *"top"* and *"_top"*. It is recommended to add marks on the top and bottom of each marks. The one in the bottom, we will place *_top* at the same y position in which we place *"top"* in Letters in this case is at Thai Body Height. And then we will place *"top"* anchor at the very top of the glyph.
+
+Even though some tonal marks, such as `maiTho-thai`, do not grammatically require a “top” anchor since they won’t have any other marks above them, this “top” anchor is included to prevent typography errors. It ensures proper stacking in the event of double typing.
+
+### Anchors on marks #2 floor 
+For the #2 floor top marks, the process is similar to that of the #1 floor marks. We need the same two anchors: *“top”* and *”_top”*. However, this time we will place the *”_top”* anchor at the height (y) of saraIi-thai. As with the previous floor, we will place the *“top”* anchor at the very top of the glyph. Please see the image below for a visual explanation.
 
 ![mark_all01](images/mark_all01.png)
 
-
-Though it is good to note that for rounded corners of some letters, tone-marks need to be shifted inward a little bit, as in the top tone-mark in this example. 
-<!-- ![screenshot15](images/mark-15.png)
-<sub>top tone-mark on the top right corner of the image and bottom tone-mark on the bottom right corner of the image</sub> -->
-
-For the top tones and vowels, there are also 2 marks and are called *top* and *_top*. It is recommended to add marks on the top and bottom of each tone and vowel, eventhough some tones are not grammatically be topped with anything. This is just to prevent user errors.
-<!-- ![screenshot16](images/mark-16.png)
-<sub>top tone-mark on the top right corner of the image and _top tone-mark on the bottom right corner of the image</sub> -->
+### Anchors on marks bottom
 
 ![mark_all02](images/mark_all02.png)
 
-For bottom vowels, there is only 1 tone-mark to connect to the consonant above as there is nothing beneath these vowels. This tone-mark is called *_bottom*.
+For bottom vowels, we do the same with the top
+
+there is only 1 tone-mark to connect to the consonant above as there is nothing beneath these vowels. This tone-mark is called *_bottom*.
+
 <!-- ![screenshot17](images/mark-17.png)
 <sub>_bottom tone-mark on the top right corner of the image</sub> -->
 
