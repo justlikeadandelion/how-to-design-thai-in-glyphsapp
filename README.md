@@ -153,5 +153,7 @@ Thai OpenType features are important, it is important to make Thai tone-marks in
 > * You can also look moe information about OpenType features at 
 >>* [Features, part 1: simple sub­stitutions](https://glyphsapp.com/learn/features-part-1-simple-substitutions)
 >>* [Features, part 2: con­textual sub­sti­tutions](https://glyphsapp.com/learn/features-part-2-contextual-substitutions) 
+>>* [Features, part 3: advanced contextual alternates](https://glyphsapp.com/learn/features-part-3-advanced-contextual-alternates) 
+>>* [Features, part 4: positional alternates](https://glyphsapp.com/learn/features-part-4-positional-alternates)
 >> * [OpenType Cookbook](https://opentypecookbook.com)
 
