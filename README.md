@@ -108,7 +108,7 @@ There are 2 anchors which will be placed on consonants namely *"top"* and *"bott
 > [!NOTE]
 > It is important to note that for curved corners in some letters, anchors sometimes need to be shifted slightly inward (-x) to achieve proper visual compensation and alignment between the letter and the marks.
 
-![title](images/kokai-thai.png)
+![title](images/kokai-thai_anchors.png)
 
 ### Anchors on marks #1 floor
 For the #1 floor top marks, there are also 2 anchors: *"top"* and *"_top"*. It is recommended to add marks on the top and bottom of each marks. The one in the bottom, we will place *_top* at the same y position in which we place *"top"* in Letters in this case is at Thai Body Height. And then we will place *"top"* anchor at the very top of the glyph.
