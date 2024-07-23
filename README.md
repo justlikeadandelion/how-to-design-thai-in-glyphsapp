@@ -149,5 +149,10 @@ The new glyph can be added through Glyph >> Add Glyphs..., you can name them how
 Thai OpenType features are important, it is important to make Thai tone-marks in Thai function properly. Majority of Thai OpenType features take place in [ccmp](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ae). In Glyphs 3, you can automatically generate Thai features within a click. However, you can also modified them according to your design. 
 
 > [!NOTE]
-> Here I share the example of my OpenType feature of mine in Both Thai Loop. 
+> * [Here](https://github.com/boomwooq/Thai_Opentype_feature) I share the example of my OpenType feature of mine in Both Thai Loop.
+> You can also look moe information about OpenType features at 
+> * [Features, part 1: simple sub­stitutions](https://glyphsapp.com/learn/features-part-1-simple-substitutions)
+> * [Features, part 2: con­textual sub­sti­tutions](https://glyphsapp.com/learn/features-part-2-contextual-substitutions) 
+> * [
+> * [OpenType Cookbook](https://opentypecookbook.com)
 
