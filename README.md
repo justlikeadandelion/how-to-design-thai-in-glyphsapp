@@ -20,7 +20,8 @@ After we added Thai glyphs into our file, it's time to define body height and al
 
 To do this, you can go to  _Font Info_. Then go to _Masters_ tab, scroll down to _Metrics_ and click the _+_ symbol on the right.
 
-> [!NOTE] If you added Thai glyphs through pre-defined glyphs set via the scripts pop-up window, you will automatically have multiple Metrics preset here. You can choose to keep/ modify/ delete them out as you see fit for your design. 
+> [!NOTE] 
+> If you added Thai glyphs through pre-defined glyphs set via the scripts pop-up window, you will automatically have multiple Metrics preset here. You can choose to keep/ modify/ delete them out as you see fit for your design. 
 
 In this insturction, we would like to keep the metricminimal for ease of understanding. And will only focus on what is necessary. We started by adding the glyphs through method (1.1) 
 
@@ -40,26 +41,26 @@ You will be filling all glyphs with your drawing in most of the sections: Letter
 *image koKai with no anchor*
 
 ## Marks
-After you've done all Letters, now you can start drawing the marks! `saraIi-thai` is usually good for the start as its height usually defines the rest of the height in its set:`saraI-thai` `saraIi-thai` `saraUe-thai` `saraUee-thai`, let's say we call them "vowel set". You can also add guidelines at the top and the bottom of it to easily refer to the baseline and height of `saraIi-thai`.
+After you've done all Letters, now you can start drawing the marks! `saraIi-thai` is usually good for the start as its height usually defines the rest of the height in its set:`saraI-thai` `saraIi-thai` `saraUe-thai` `saraUee-thai`; let's say we call them "vowel set". You can also add guidelines at the top and the bottom of it to easily refer to the baseline and height of `saraIi-thai`.
 ![saraIiguidelines](images/saraIiguidelines.png)
 
-However, the height of tonal marks or "tone set" such as `maiEk-thai`, `maiTho-thai`, `maiTri-thai`, `maiChattawa-thai`, or even `maitaikhu-thai` should not be limited to the height of `saraIi-thai` since it will not have any other marks to be placed on top, and for the visual compensation — it can grow heigher than the `saraIi-thai` height, please, see example in the image below.
+However, the height of tonal marks or "tone set" such as `maiEk-thai`, `maiTho-thai`, `maiTri-thai`, `maiChattawa-thai`, or even `maitaikhu-thai` should not be limited to the height of `saraIi-thai` since it will not have any other marks to be placed on top, and for the visual compensation — it can grow heigher than the `saraIi-thai` height. Please see an example in the image below.
 
 ![title](images/saraii-maitho.png)
 
 ## Thai tone-marks explanation
-In Thai, forming a word can involve multiple tone and vowel marks placed above and below the consonants or letters. Thanks to the current technology : `mark to base` and `mark to mark` Opentype feature. We are now attached marks on top and below letters using "anchor" on letters and on the marks. Please [see more tips here](https://glyphsapp.com/learn/mark-attachment). 
+In Thai, forming a word can involve multiple tone and vowel marks placed above and below the consonants or letters. Thanks to the current technology : `mark to base` and `mark to mark` Opentype feature. We can now attach marks on top and below letters using "anchor" on letters and on the marks. Please [see more tips here](https://glyphsapp.com/learn/mark-attachment). 
 
 ### Top Marks
-In Thai font development, one mark usually come in a set of three: 
-1. default (e.g. `maiTho-thai`) is _a first floor marks_ using on top of letters
-2. .small (e.g. `maiTho-thai.small`) is _a second floor_ marks using _on top of the first floor mark._ This set of glyphs is also smaller than the default glyphs as well. 
-3. .narrow (e.g. `maiTho-thai.narrow`) is _a first floor marks_ using on letters _with ascender._This set of glyphs is usually narrower than the default glyphs.
+In Thai font development, a mark usually comes in a set of three: 
+1. default (e.g. `maiTho-thai`) is _a first floor mark_ used on top of letters
+2. .small (e.g. `maiTho-thai.small`) is _a second floor mark_ used _on top of the first floor mark._ This set of glyphs is also smaller than the default glyphs as well. 
+3. .narrow (e.g. `maiTho-thai.narrow`) is _a first floor mark_ used on letters _with ascender_. This set of glyphs is usually narrower than the default glyphs.
 
-![mark_all05](images/mark_all05.png)
+![tone01](images/tone01.png)
 <sub>An example of maiTho, maiTho.small and maiTho.narrow</sub>
 
-![mark_all06](images/mark_all06.png)
+![tone02](images/tone02.png)
 <sub>An example of maiTho, maiTho.small and maiTho.narrow in use</sub>
 
 <!-- 
@@ -74,19 +75,19 @@ In Thai font development, one mark usually come in a set of three:
 
 > [!NOTE]
 > * Not all top marks require all three sets. These can be adjusted based on the needs of each typeface. If none of the above fit certain glyphs, it is possible to create additional alternates. For example, you can create “.mid” (middle) width top marks for use with `roRua-thai` or `woWean-thai` in Loopless designs.
-> * Default means glyph without additional .small / .narrow after its name or in other word glyph that contains unicode.
+> * Default means glyph without additional .small / .narrow after its name or in other words glyph that contains unicode.
 
 ### Bottom Marks
-In the case of _bottom mark_, there are two sets: 
+In the case of _bottom marks_, there are two sets: 
 1. Default glyphs
-2. .small is a shorter version of its default to use with letter with descender: ".short" descender letters: `doChada-thai.short` and `toPatak-thai.short`.
+2. .small is a shorter version of its default to use with letters with descender: ".short" descender letters: `doChada-thai.short` and `toPatak-thai.short`.
 
-![mark_all07](images/mark_all07.png)
+![tone03](images/tone03.png)
 <sub>An example of saraU and saraU.small</sub>
 
-![mark_all08](images/mark_all08.png)
+![tone04](images/tone04.png)
 <sub>An example of doChada.short and saraU.small in use</sub>
-**Change photo same as ส้มนี้ฟ้า**
+<!-- **Change photo same as ส้มนี้ฟ้า** -->
 
 <!-- ![screenshot13](images/tone-13.png)
 <sub>An example of saraU and saraU.small</sub>
@@ -94,34 +95,40 @@ In the case of _bottom mark_, there are two sets:
 ![screenshot14](images/tone-14.png)
 <sub>An example of saraU.small</sub> -->
 
-# 4. Anchors attachedment
+# 4. Anchors attachment
 These anchors act like hooks that you can place on each glyph for them to hook to another glyph. Please see [more about anchors here](https://handbook.glyphsapp.com/anchors/). Usually we use Glyphs' shortcut `Command + u` to add the anchors in glyphs. 
 
 > [!NOTE] 
-> In Letters, if `top` anchor is not appear on Thai's body height, please check 2. Metric and Alignment 
+> In Letters, if `top` anchors do not appear on Thai's body height, please check 2. Metric and Alignment 
 
-### Anchors on Letters/ Consonants
-There are 2 anchors which will be placed on consonants namely `top` and `bottom`, and they , like their names, `top` placed on Thai Body Height connect to the top marks and `bottom` placed on on the baseline to connecct with the bottom marks. In Thai, we usually place the mark align with the right stem of the letters, therefore, you can place anchors at the top/ bottom right of each letters/ consonants. 
+### Anchors on Letters / Consonants
+There are 2 anchors which will be placed on consonants namely `top` and `bottom`. Like their names, `top` is placed on Thai Body Height connecting to the top marks, and `bottom` is placed on the baseline conneccting to the bottom marks. In Thai, we usually place marks align with the right stem of the letters; therefore, you can place anchors at the top/bottom right of each letters/consonants. 
 
 > [!NOTE]
 > It is important to note that for curved corners in some letters, anchors sometimes need to be shifted slightly inward (-x) to achieve proper visual compensation and alignment between the letter and the marks.
 
-![title](images/kokai-thai_anchors.png)
+<!-- ![title](images/kokai-thai_anchors.png) -->
+![top02](images/top02.png)
 
 ### Anchors on marks #1 floor
-For the #1 floor top marks, there are also 2 anchors: `top` and `_top`. It is recommended to add marks on the top and bottom of each marks. The one in the bottom, we will place `_top` at the same y position in which we place `top` in Letters in this case is at Thai Body Height. And then we will place `top` anchor at the very top of the glyph.
+For the #1 floor top marks, there are also 2 anchors: `top` and `_top`. It is recommended to add marks on the top and bottom of each marks. The one in the bottom, we will place `_top` at the same y position in which we place `top` in Letters which in this case is at Thai Body Height. And then we will place `top` anchor at the very top of the glyph.
 
 Even though some tonal marks, such as `maiTho-thai`, do not grammatically require a `top` anchor since they won’t have any other marks above them, this `top` anchor is attached here to prevent typography errors. It ensures proper stacking in the event of double typing.
 
 ### Anchors on marks #2 floor 
 For the #2 floor top marks, the process is similar to that of the #1 floor marks. We need the same two anchors: `top` and `_top`. However, this time we will place the `_top` anchor at the height (y) of saraIi-thai. As with the previous floor, we will place the `top` anchor at the very top of the glyph. Please see the image below for a visual explanation.
 
-![mark_all01](images/mark_all01.png)
+![top01](images/top01.png)
+<sub>An example of top anchor placement</sub>
 
 ### Anchors on marks bottom
 Thai's bottom marks are only in 1 level down. And for the bottom marks to connect with the consonant above, we place the anchors in a similar manner as those top marks except that we will call it `bottom` and `_bottom` instead. 
 
-![mark_all02](images/mark_all02.png)
+![bottom01](images/bottom01.png)
+<sub>An example of bottom anchor placement</sub>
+
+![bottom02](images/bottom02.png)
+<sub>An example of bottom anchor placement</sub>
 
 ### How to Preview Tone-Marks
 What if you want to preview a word or a sentence with correct mark positions? There is a free plugin called [Show Mark Preview](https://github.com/mekkablue/ShowMarkPreview) that allows you to display marks in place in the Edit View using Text tool (T). 
