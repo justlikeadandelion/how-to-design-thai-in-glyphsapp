@@ -10,7 +10,6 @@ We have to add Thai glpyhs into the file! There are two ways of doing this in Gl
 
 ## Note: For first time user
 Before diving into editing, there are some modules you need to install for the future plugins to work. You can access them through _Window > Plugin Manager_ 
-![screenshot03](images/03.png)
 
 Then this window will appear. Go to _Modules_ located next to the search box. Then install all 4 modules.Please see more about modules also in [Glyphs 3 Handbook](https://cdn2.glyphsapp.com/media/pages/learn/f84e457b88-1639830290/glyphs-3.0.4-handbook.pdf) (in 3.6 Addons)
 
