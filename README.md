@@ -128,17 +128,26 @@ Thai's bottom marks are only in 1 level down. And for the bottom marks to connec
 
 ![mark_all02](images/mark_all02.png)
 
-<!-- ![screenshot17](images/mark-17.png)
-<sub>_bottom tone-mark on the top right corner of the image</sub> -->
-
 ### How to Preview Tone-Marks
-What if you want to preview a word or a sentence with correct mark positions? There is a free plugin called *Show Mark Preview* that allows you to display tones and vowels in place in the Edit View using Text tool (T). 
+What if you want to preview a word or a sentence with correct mark positions? There is a free plugin called [Show Mark Preview](https://github.com/mekkablue/ShowMarkPreview) that allows you to display marks in place in the Edit View using Text tool (T). 
 
-The plugin can be installed through _Window > Plugin Manager_. Then click the taps *All* and *Plugins*. Type in "Show Mark Preview" in the search box and install it.
-![screenshot18](images/mark-18.png)
+>[!NOTE]
+> * Please, install the plug-in through Glyphs's Plug-in Manager 
+> * Don't forget to turn it on to see the preview! Show Mark Preview can be turned on through _View > check Show Mark Preview_
 
-The Mark Preview can be turned on through _View > check Show Mark Preview_
-![screenshot19](images/19.png)
+# 5. [Extra] Nikhahit set
+Practically in Opentype feature, when you type `saraAm-thai` it will decompose the ligature into `nikhahit-thai` and `saraAa-thai`.
 
-### The Special Case of saraAm
-SaraAm when combined with maiTho or maiTri is normally not easy to align, so the solution would be to make new alternate glyphs. This can be done in Grid View by selecting the saraAm glyph then _cmd + d_ or _Glyph > Duplicate Glyph_. SaraAm glyph will be duplicated, and you can adjust the new glyph with maiTho or maiTri.
+Then the #2 floor tonal marks will attach to the anchors position in `nikhahit-thai`. And to make the nice mark positioning on `nikhahit-thai` with other tonal marks, we would recommend you to create additional glyphs in which combined the `nikhahit-thai` and other tonal marks as a componant. Especially, `nikhahit-thai` + `maiTho-thai.small`, and `nikhahit-thai` + `maiTri-thai.small`.
+
+The new glyph can be added through Glyph >> Add Glyphs..., you can name them however you like, in my case I name them `nikhahit_maiTho-thai` and `nikhahit_maiTri-thai`. And then add Componant of `nikhahit-thai` + `maiTho-thai.small`, for example. And right click to `disable automatic alignment` and the you can freely adjust their position. 
+
+>[!NOTE]
+> Please make sure that the name of this ligature you set and what you wrote in the OpenType feature is the same name. Otherwise, those substitution will not work. 
+
+#6. Thai OpenType feature
+Thai OpenType features are important, it is important to make Thai tone-marks in Thai function properly. Majority of Thai OpenType features take place in [ccmp](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ae). In Glyphs 3, you can automatically generate Thai features within a click. However, you can also modified them according to your design. 
+
+> [!NOTE]
+> Here I share the example of my OpenType feature of mine in Both Thai Loop. 
+
