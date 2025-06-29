@@ -107,6 +107,12 @@ In the case of _bottom marks_, there are two sets:
 ![screenshot14](images/tone-14.png)
 <sub>An example of saraU.small</sub> -->
 
+- **Note:**
+  
+  > These combinations `ฎุ` `ฎู` `ฏุ` `ฏู` are nearly nonexistent in modern Thai. Any appearance of them would be in ancient inscriptions, Pali/Sanskrit transliteration, or calligraphic scripts.
+  > 
+  > Example words `กระฎุมพี` [`วุฎูอ์`](https://th.wikishia.net/view/วุฎูอ์)
+
 # 4. Anchors attachment
 These anchors act like hooks that you can place on each glyph for them to hook to another glyph. Please see [more about anchors here](https://handbook.glyphsapp.com/anchors/). Usually we use Glyphs' shortcut `Command + u` to add the anchors in glyphs. 
 
@@ -142,9 +148,6 @@ Thai's bottom marks are only in 1 level down. And for the bottom marks to connec
 ![bottom02](images/bottom02.png)
 <sub>An example of bottom anchor placement</sub>
 
-> [!NOTE]
-> These combinations `ฎุ` `ฎู` `ฏุ` `ฏู` are nearly nonexistent in modern Thai. Any appearance of them would be in ancient inscriptions, Pali/Sanskrit transliteration, or calligraphic scripts.
-> Example word `กระฎุมพี` [`วุฎูอ์`](https://th.wikishia.net/view/วุฎูอ์)
 
 ### How to Preview Tone-Marks
 What if you want to preview a word or a sentence with correct mark positions? There is a free plugin called [Show Mark Preview](https://github.com/mekkablue/ShowMarkPreview) that allows you to display marks in place in the Edit View using Text tool (T). 
