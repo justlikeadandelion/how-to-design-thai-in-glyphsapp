@@ -142,6 +142,10 @@ Thai's bottom marks are only in 1 level down. And for the bottom marks to connec
 ![bottom02](images/bottom02.png)
 <sub>An example of bottom anchor placement</sub>
 
+> [!NOTE]
+> These combinations `ฎุ` `ฎู` `ฏุ` `ฏู` are nearly nonexistent in modern Thai. Any appearance of them would be in ancient inscriptions, Pali/Sanskrit transliteration, or calligraphic scripts.
+> Example word `กระฎุมพี` [`วุฎูอ์`](https://th.wikishia.net/view/วุฎูอ์)
+
 ### How to Preview Tone-Marks
 What if you want to preview a word or a sentence with correct mark positions? There is a free plugin called [Show Mark Preview](https://github.com/mekkablue/ShowMarkPreview) that allows you to display marks in place in the Edit View using Text tool (T). 
 
