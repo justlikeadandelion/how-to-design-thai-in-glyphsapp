@@ -3,7 +3,8 @@
 
 This guide is intended for beginners who are interested in designing Thai fonts using GlyphsApp. It is specifically written for Thai type designers, and assumes a basic understanding of the Thai script.
 
-We do not go into detail about what Thai consonants, tone marks, or their positions are. Instead, we trust your native eye to guide your design decisions. (Hint: reviewing existing Thai typefaces can help you understand how other designers have approached it.)
+We do not go into detail about what Thai consonants, tone marks, or their positions are. Instead, we trust your native eye to guide your design decisions. (Tip: Looking at how other Thai typefaces handle tone-mark placement can offer useful reference points.)
+
 
 There’s no single correct way to create a Thai font — this is just one approach. Feel free to adapt it to your own workflow as needed.
 
