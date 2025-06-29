@@ -35,7 +35,7 @@ To do this, you can go to  _Font Info_. Then go to _Masters_ tab, scroll down to
 > [!NOTE] 
 > If you added Thai glyphs through pre-defined glyphs set via the scripts pop-up window, you will automatically have multiple Metrics preset here. You can choose to keep/ modify/ delete them out as you see fit for your design. 
 
-In this insturction, we would like to keep the metricminimal for ease of understanding. And will only focus on what is necessary. We started by adding the glyphs through method (1.1) 
+In this instruction, we would like to keep the metricminimal for ease of understanding. And will only focus on what is necessary. We started by adding the glyphs through method (1.1) 
 
 ![title](images/Thai_Metric_Alignment_1.png)
 
@@ -173,8 +173,8 @@ The new glyph can be added through Glyph >> Add Glyphs..., you can name them how
 Thai OpenType features are important, it is important to make Thai tone-marks in Thai function properly. Majority of Thai OpenType features take place in [ccmp](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ae). In Glyphs 3, you can automatically generate Thai features within a click. However, you can also modified them according to your design. 
 
 > [!NOTE]
-> * [Here](https://github.com/boomwooq/Thai_Opentype_feature) I share the example of my OpenType feature of mine in Both Thai Loop and Loopless.
-> * You can also look moe information about OpenType features at 
+> * [Here](https://github.com/boomwooq/Thai_Opentype_feature) is an example of OpenType feature in both Thai Loop and Loopless.
+> * You can also look up more information about OpenType features at 
 >>* [Features, part 1: simple sub­stitutions](https://glyphsapp.com/learn/features-part-1-simple-substitutions)
 >>* [Features, part 2: con­textual sub­sti­tutions](https://glyphsapp.com/learn/features-part-2-contextual-substitutions) 
 >>* [Features, part 3: advanced contextual alternates](https://glyphsapp.com/learn/features-part-3-advanced-contextual-alternates) 
