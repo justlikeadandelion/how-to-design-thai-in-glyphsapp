@@ -49,7 +49,7 @@ Then you can fill in Thai height and alignment zone. These values can be changed
 # 3. Start Drawing! 
 You will be filling all glyphs with your drawing in most of the sections: Letters, Marks, Numerals and others, please see more about [the drawing tip here](https://glyphsapp.com/learn/drawing-good-paths)
 
-*image koKai with no anchor*
+![startDrawingKokai](images/kokai_no_anchor.png)
 
 ## Marks
 After you've done all Letters, now you can start drawing the marks! `saraIi-thai` is usually good for the start as its height usually defines the rest of the height in its set:`saraI-thai` `saraIi-thai` `saraUe-thai` `saraUee-thai`; let's say we call them "vowel set". You can also add guidelines at the top and the bottom of it to easily refer to the baseline and height of `saraIi-thai`.
