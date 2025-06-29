@@ -1,3 +1,6 @@
+# **How to Thai Glyphs**
+## Objective
+
 # 1.  Let’s start by creating a file
 We have to add Thai glpyhs into the file! There are two ways of doing this in Glyphs 3: 
 
