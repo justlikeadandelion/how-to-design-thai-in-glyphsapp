@@ -1,6 +1,14 @@
 # **How to Thai Glyphs**
 ## Objective
 
+This guide is intended for beginners who are interested in designing Thai fonts using GlyphsApp. It is specifically written for Thai type designers, and assumes a basic understanding of the Thai script.
+
+We do not go into detail about what Thai consonants, tone marks, or their positions are. Instead, we trust your native eye to guide your design decisions. (Hint: reviewing existing Thai typefaces can help you understand how other designers have approached it.)
+
+There’s no single correct way to create a Thai font — this is just one approach. Feel free to adapt it to your own workflow as needed.
+
+If you find that something is unclear or missing, please don’t hesitate to open an issue or ask a question. We’re happy to improve this guide together.
+
 # 1.  Let’s start by creating a file
 We have to add Thai glpyhs into the file! There are two ways of doing this in Glyphs 3: 
 
